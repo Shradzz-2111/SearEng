@@ -1,0 +1,23 @@
+# Data: never committed. Rebuild with the download script; only the manifest is tracked.
+data/*
+!data/manifest.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Models and experiment outputs
+mlruns/
+*.onnx
+*.pt
+checkpoints/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
